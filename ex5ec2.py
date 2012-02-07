@@ -17,3 +17,4 @@ print "His teeth are usually %r depending on the coffee." % my_teeth
 print "If I add %r, %r, and %r I get %r." %(
 my_age, my_height, my_weight, my_age + my_height + my_weight)
 # Huh, it kept the quotes around the strings. Neat.
+# Ah, it's using repr().
