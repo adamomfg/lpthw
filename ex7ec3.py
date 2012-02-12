@@ -1,0 +1,2 @@
+print "When writing by hand, the movements involved leave a motor memory in the sensorimotor part of the brain, which helps us recognise letters. This implies a connection between reading and writing, and suggests that the sensorimotor system plays a role in the process of visual recognition during reading, Mangen explains.\n"
+print "Good article recently, reinforcing what I was told when studying how to memorize crap in high school: http://www.sciencedaily.com/releases/2011/01/110119095458.htm"
