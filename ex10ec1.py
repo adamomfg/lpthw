@@ -1,0 +1,1 @@
+print "I was able to find this %s, this %s, and this %s." % ('http://docs.python.org/reference/lexical_analysis.html', 'http://www.codecodex.com/wiki/Escape_sequences_and_escape_characters#Python', 'http://docs.python.org/release/2.5.2/ref/strings.html')
