@@ -1,7 +1,2 @@
 #!/usr/bin/python
-print "How many pennies do you have?"
-pennies = int(raw_input())
-print "How many nickels do you have?"
-nickels = int(raw_input())
-cents = pennies + (nickels * 5)
-print "you have %r cents." % cents
+print "I tried some of the samples that I found, even though most of them were exactly the same as this one."
