@@ -32,3 +32,13 @@ print "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "That becomes: ", what, "Can you do it by hand?"
+
+print "Divide iq by two, multiply that by weight, subtract that from height, "
+"add that to age."
+
+first = iq / 2
+second = first * weight
+third = height - second
+fourth = third + age
+print 'The answer is %d.' % fourth
+
