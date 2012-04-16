@@ -1,4 +1,7 @@
 #!/usr/bin/python
+
+import ex25
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -10,7 +13,7 @@ def sort_words(words):
 
 def print_first_word(words):
     """Prints the first word after popping it off."""
-    word = words.poop(0)
+    word = words.pop(0)
     print word
 
 def print_last_word(words):
@@ -53,7 +56,7 @@ print "--------------"
 print poem
 print "--------------"
 
-five = 10 - 2 + 3 - 5
+five = 10 - 2 + 3 - 6
 print "This should be five: %s" % five
 
 def secret_formula(started):
@@ -75,19 +78,23 @@ print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
 
 
-sentence = "All god\tthings come to those who weight."
+sentence = "All good\tthings come to those who wait."
 
-#TODO(api): define ex25
 words = ex25.break_words(sentence)
 sorted_words = ex25.sort_words(words)
 
+# print the first word
 print_first_word(words)
+# print the last word
 print_last_word(words)
+# print first of sorted words
 print_first_word(sorted_words)
+# print last of sorted words
 print_last_word(sorted_words)
+# run ex25.sort_sentence on sentence, assign to sorted_words
 sorted_words = ex25.sort_sentence(sentence)
 print sorted_words
 
-print_irst_and_last(sentence)
+ex25.print_first_and_last(sentence)
 
-print_first_a_last_sorted(senence)
+ex25.print_first_and_last_sorted(sentence)
