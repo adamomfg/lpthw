@@ -20,3 +20,5 @@ not ("testing" == "testing" and "Zed" == "Cool Guy") is True
 1 == 1 and not ("testing" == 1 or 1 == 0) is True
 "chunky" == "bacon" and not (3 == 4 or 3 == 3) is False
 3 == 3 and not ("testing" == "testing" or "Python" == "Fun") is False
+"""
+print answers
